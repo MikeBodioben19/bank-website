@@ -19,7 +19,9 @@ import { Navbar,Hero,Billing,CardDeal,Business,Clients,CTA,Footer,Stats} from '.
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-        
+          <Stats />
+          <Business />
+          <Billing />
         </div>
       </div>
     </div>
