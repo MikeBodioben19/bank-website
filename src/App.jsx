@@ -13,7 +13,7 @@ import { Navbar,Hero,Billing,CardDeal,Business,Clients,CTA,Footer,Stats} from '.
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          Hero
+          <Hero/>
         </div>
       </div>
 
