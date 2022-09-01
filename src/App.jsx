@@ -22,6 +22,7 @@ import { Navbar,Hero,Billing,CardDeal,Business,Clients,CTA,Footer,Stats} from '.
           <Stats />
           <Business />
           <Billing />
+          <CardDeal />
         </div>
       </div>
     </div>
