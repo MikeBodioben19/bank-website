@@ -30,7 +30,7 @@ const Navbar = () => {
       </div>
 
       <div className={`${
-        !toggle ? "hidden" : " flex"} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[1400px] rounded-xl sidebar`}>
+        !toggle ? "hidden" : " flex"} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[1400px] rounded-xl w-full sidebar`}>
            <ul className='flex items-start justify-end flex-1'>
         {navLinks.map((nav,index) => (
             <li key={nav.id} className= {`cursor-pointer font-normal font-poppins text-[16px] 
