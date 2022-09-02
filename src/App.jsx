@@ -25,6 +25,8 @@ import { Navbar,Hero,Billing,CardDeal,Business,Clients,CTA,Footer,Stats} from '.
           <CardDeal />
           {/* <Testimonials /> */}
           <Clients />
+          <CTA/>
+          <Footer/>
         </div>
       </div>
     </div>
