@@ -23,6 +23,8 @@ import { Navbar,Hero,Billing,CardDeal,Business,Clients,CTA,Footer,Stats} from '.
           <Business />
           <Billing />
           <CardDeal />
+          {/* <Testimonials /> */}
+          <Clients />
         </div>
       </div>
     </div>
