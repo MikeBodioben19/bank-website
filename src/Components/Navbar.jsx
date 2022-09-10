@@ -25,7 +25,7 @@ const Navbar = () => {
 
       <div className='sm:hidden flex flex-1 justify-end items-center'>
           <span>
-            {toggle ? <RiCloseLine className='w-[28px] h[28px] text-white' onClick={() =>setToggle(!toggle)}/> :  <RiMenu3Line className='w-[28px] h[28px] text-white' onClick={() =>setToggle(!toggle)}/>}
+            {toggle ? <RiCloseLine className='w-[28px] h-[28px] text-white' onClick={() =>setToggle(!toggle)}/> :  <RiMenu3Line className='w-[28px] h[28px] text-white' onClick={() =>setToggle(!toggle)}/>}
           </span>
       </div>
 
